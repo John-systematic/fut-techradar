@@ -1,0 +1,45 @@
+name,ring,quadrant,isNew,description
+Cilium, Assess, Tools, Traditional Linux network security approaches, such as iptables, filter on IP address and TCP/UDP ports. However, these IP addresses frequently churn in dynamic microservices environments. By leveraging Linux eBPF, Cilium provides API-aware networking and security by transparently inserting security in a way that is based on service, pod or container identity in contrast to IP address identification. By decoupling security from addressing, Cilium could play a significant role as a new network protection layer and we recommend you to check it out.
+ActiveMQ,Adopt,Platforms,FALSE,Messaging system used On-Prem
+Amazon MQ,Hold,Platforms,FALSE,Messaging system used as managed service on AWS test systems. Replace Amazon MQ with  Active MQ on virtual machines outside the k8s cluster to be able to debug and keep enviroment similar.
+ActiveMQ Artemis, Assess, Platforms, TRUE, The Next Generation Message Broker by ActiveMQ 
+AWS RDS/Aurora,Adopt,Tools,FALSE,PostgreSQL as managed service on AWS
+Postgres cluster,Adopt,Tools,FALSE,"PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
+Helm,Adopt,Tools,FALSE,The Kubernetes Package Manager
+Helmsman,Hold,Tools,FALSE,
+OpenAPI Initiative,Adopt,languages-and-frameworks,FALSE,The OpenAPI Specification Repository
+Jenkins as deployment pipeline,Hold,Techniques,FALSE,"Jenkins is currently used as deployment tool. Look into using Kubernetes operators instead (e.g ArcoCD, Flux2...)"
+Git,Adopt,Tools,FALSE,
+GitLab,Adopt,Tools,FALSE,
+Flagger,Hold,Tools,FALSE,"Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)"
+Docker,Adopt,Platforms,FALSE,"Docker provides an open platform for building, shipping, and running distributed applications."
+Kubernetes,Adopt,Platforms,FALSE,"Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications"
+Rancher Kubernetes,Adopt,Platforms,FALSE,Kubernetes distro used on-prem.
+AWS EKS,Adopt,Platforms,FALSE,Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without needing to install and operate your own Kubernetes clusters.
+Istio,Adopt,Platforms,FALSE,"Connect, secure, control, and observe services."
+Harbor,Adopt,Tools,FALSE,"An open source trusted cloud native registry project that stores, signs, and scans content."
+Chartmuseum,Adopt,Tools,FALSE,Part of 
+Polaris,Adopt,Tools,FALSE,Validation of best practices in your Kubernetes clusters
+Black Duck,Adopt,Tools,FALSE,"Black Duck provides a comprehensive software composition analysis (SCA) solution for managing security, quality, and license compliance risk that comes from the use of open source and third-party code in applications and containers."
+Keycloak,Adopt,Platforms,FALSE,Open Source Identity and Access Management For Modern Applications and Services
+Vault,Adopt,Tools,FALSE,"A tool for secrets management, encryption as a service, and privileged access management"
+Jaeger,Adopt,Tools,FALSE,"CNCF Jaeger, a Distributed Tracing Platform"
+Prometheus,Adopt,Tools,FALSE,The Prometheus monitoring system and time series database.
+"AWS' CloudWatch ",Adopt,Tools,FALSE,
+Kiali,Adopt,Tools,FALSE,"Kiali project, observability for the Istio service mesh"
+Grafana,Trial,Tools,FALSE,"Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture."
+FluentD,Adopt,Tools,FALSE,Fluentd is an open source data collector for unified logging layer
+Splunk,Adopt,Tools,FALSE,"Splunk is a software company that provides operational intelligence software that monitors, reports, and analyzes real-time machine data."
+Splunk ITSI,Adopt,Tools,FALSE,"Splunk is a software company that provides operational intelligence software that monitors, reports, and analyzes real-time machine data."
+Flux2 as deployment pipeline,Trial,Techniques,TRUE,Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.
+Snyk,Trial,Tools,TRUE,"Find and automatically fix vulnerabilities in your code, open source dependencies, containers, and infrastructure as code"
+Elastic as backend for Jaeger,Adopt,Tools,TRUE,"Free and Open, Distributed, RESTful Search Engine"
+Lucene as backend for FHIR services,Hold,Tools,TRUE,
+Elastic as backend as for FHIR services,Assess,Tools,TRUE,
+ElasticSearch for log consolidation,Assess,Tools,TRUE, currently SPLUNK is used for log coonsolidation. SPLUNK is expensive in licences and we may want to look at alternatives.
+Cluster per environment for test environments, Adopt, Techniques,TRUE,Seperate cluster for each non-prod environment - https://learnk8s.io/how-many-clusters
+On large Cluster for test environments,Assess,Techniques,TRUE,All workloads in same cluster for non-prod environment - https://learnk8s.io/how-many-clusters
+Argo CD as deployment tool,Assess,Techniques,TRUE,Provides Web UI for real-time view of application activity
+Kotlin,Assess,languages-and-frameworks,TRUE,A programming language for the Java VM that makes developers happier.
+AsyncAPI,Trial,languages-and-frameworks,TRUE,Open-Source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs.
+TerraForm,Adopt,Tools,De facto choice for creating and managing cloud infrastructures by writing declarative definitions
