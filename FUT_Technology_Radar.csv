@@ -1,16 +1,13 @@
 "name","ring","quadrant","isNew","description"
-
-Amazon MQ,          Hold,   Platforms, FALSE,   "Messaging system used as managed service on AWS test systems. Replace Amazon MQ with  Active MQ on virtual machines outside the k8s cluster to be able to debug and keep enviroment similar."
-ActiveMQ,           Adopt,  Platforms, FALSE,   "Messaging system used On-Prem"
-ActiveMQ Artemis,   Assess, Platforms, TRUE,    "The Next Generation Message Broker by ActiveMQ"
+Amazon MQ, Hold,   Platforms, FALSE,   "Messaging system used as managed service on AWS test systems. Replace Amazon MQ with  Active MQ on virtual machines outside the k8s cluster to be able to debug and keep enviroment similar."
+ActiveMQ, Adopt,  Platforms, FALSE,   "Messaging system used On-Prem"
+ActiveMQ Artemis, Assess, Platforms, TRUE,    "The Next Generation Message Broker by ActiveMQ"
 Kubernetes,Adopt,Platforms,FALSE,"Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications"
 Rancher Kubernetes,Adopt,Platforms,FALSE," Kubernetes distro used on-prem."
 AWS EKS,Adopt,Platforms,FALSE, "Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without needing to install and operate your own Kubernetes clusters."
 Istio,Adopt,Platforms,FALSE,"Connect, secure, control, and observe services."
 Docker,Adopt,Platforms,FALSE,"Docker provides an open platform for building, shipping, and running distributed applications."
 Keycloak,Adopt,Platforms,FALSE, "Open Source Identity and Access Management For Modern Applications and Services"
-
-
 Cilium, Assess, Tools,  TRUE, "Traditional Linux network security approaches, such as iptables, filter on IP address and TCP/UDP ports. However, these IP addresses frequently churn in dynamic microservices environments. By leveraging Linux eBPF, Cilium provides API-aware networking and security by transparently inserting security in a way that is based on service, pod or container identity in contrast to IP address identification. By decoupling security from addressing, Cilium could play a significant role as a new network protection layer and we recommend you to check it out."
 AWS RDS/Aurora, Adopt,  Tools,  FALSE, "PostgreSQL as managed service on AWS"
 Postgres cluster, Adopt,  Tools,  FALSE, "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
@@ -38,12 +35,9 @@ Lucene as backend for FHIR services,Hold,Tools,FALSE, " "
 Elastic as backend as for FHIR services,Assess,Tools,TRUE, " "
 Alternative to splunk for log consolidation,Assess,Tools,TRUE, "Currently SPLUNK is used for log coonsolidation. SPLUNK is expensive in licences and we may want to look at alternatives."
 TerraForm, Adopt, Tools, FALSE, "De facto choice for creating and managing cloud infrastructures by writing declarative definitions"
-
-
 OpenAPI Initiative,Adopt,languages-and-frameworks,FALSE, "The OpenAPI Specification Repository"
 Kotlin,Assess,languages-and-frameworks,TRUE, "A programming language for the Java VM that makes developers happier."
 AsyncAPI,Trial,languages-and-frameworks,TRUE, "Open-Source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs."
-
 Jenkins as deployment pipeline,Hold,Techniques,FALSE, "Jenkins is currently used as deployment tool. Look into using Kubernetes operators instead (e.g ArcoCD, Flux2...)"
 Flux2 as deployment pipeline,Trial,Techniques,TRUE, "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit."
 Cluster per environment for test environments, Adopt, Techniques,TRUE, "Seperate cluster for each non-prod environment - https://learnk8s.io/how-many-clusters"
