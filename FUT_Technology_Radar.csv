@@ -42,4 +42,4 @@ On large Cluster for test environments,Assess,Techniques,TRUE, "All workloads in
 Argo CD as deployment tool,Assess,Techniques,TRUE, "Provides Web UI for real-time view of application activity"
 Kotlin,Assess,languages-and-frameworks,TRUE, "A programming language for the Java VM that makes developers happier."
 AsyncAPI,Trial,languages-and-frameworks,TRUE, "Open-Source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs."
-TerraForm,Adopt,Tools, "De facto choice for creating and managing cloud infrastructures by writing declarative definitions"
+TerraForm, Adopt, Tools, FALSE, "De facto choice for creating and managing cloud infrastructures by writing declarative definitions"
