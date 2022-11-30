@@ -1,4 +1,4 @@
-name,ring,quadrant,isNew,description
+"name","ring","quadrant","isNew","description"
 Cilium, Assess, Tools, FALSE, "Traditional Linux network security approaches, such as iptables, filter on IP address and TCP/UDP ports. However, these IP addresses frequently churn in dynamic microservices environments. By leveraging Linux eBPF, Cilium provides API-aware networking and security by transparently inserting security in a way that is based on service, pod or container identity in contrast to IP address identification. By decoupling security from addressing, Cilium could play a significant role as a new network protection layer and we recommend you to check it out."
 ActiveMQ,Adopt,Platforms,FALSE,"Messaging system used On-Prem"
 Amazon MQ,Hold,Platforms,FALSE,"Messaging system used as managed service on AWS test systems. Replace Amazon MQ with  Active MQ on virtual machines outside the k8s cluster to be able to debug and keep enviroment similar."
