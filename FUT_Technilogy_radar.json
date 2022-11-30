@@ -1,0 +1,310 @@
+[
+    {
+        "name": "Amazon MQ",
+        "ring": "Hold",
+        "quadrant": "Platforms",
+        "inNew": "FALSE",
+        "description": "Messaging system used as managed service on AWS test systems. Replace Amazon MQ with  Active MQ on virtual machines outside the k8s cluster to be able to debug and keep enviroment similar."
+    },
+    {
+        "name": "ActiveMQ",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "inNew": "FALSE",
+        "description": "Messaging system used On-Prem"
+    },
+    {
+        "name": "ActiveMQ Artemis",
+        "ring": "Assess",
+        "quadrant": "Platforms",
+        "inNew": "TRUE",
+        "description": "The Next Generation Message Broker by ActiveMQ"
+    },
+    {
+        "name": "Kubernetes",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "inNew": "FALSE",
+        "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications"
+    },
+    {
+         "name": "Rancher Kubernetes",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "inNew": "FALSE",
+        "description": " Kubernetes distro used on-prem."
+    },
+    {
+        "name": "AWS EKS",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "inNew": "FALSE",
+        "description": "Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without needing to install and operate your own Kubernetes clusters."
+    },
+    {
+        "name": "Istio",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "inNew": "FALSE",
+        "description": "Connect, secure, control, and observe services."
+    },
+    {
+        "name": "Docker",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "inNew": "FALSE",
+        "description": "Docker provides an open platform for building, shipping, and running distributed applications."
+    },
+    {
+        "name": "Keycloak",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "inNew": "FALSE",
+        "description": "Open Source Identity and Access Management For Modern Applications and Services"
+    },
+    {
+        "name": "Cilium",
+        "ring": "Assess",
+        "quadrant": "Tools",
+        "inNew": "TRUE",
+        "description":"Traditional Linux network security approaches, such as iptables, filter on IP address and TCP/UDP ports. However, these IP addresses frequently churn in dynamic microservices environments. By leveraging Linux eBPF, Cilium provides API-aware networking and security by transparently inserting security in a way that is based on service, pod or container identity in contrast to IP address identification. By decoupling security from addressing, Cilium could play a significant role as a new network protection layer and we recommend you to check it out."
+    },
+    {
+        "name": "AWS RDS/Aurora",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description":"PostgreSQL as managed service on AWS"
+    },
+    {
+        "name": "Postgres cluster",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description":"PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
+    },
+    {
+        "name": "Helm",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "The Kubernetes Package Manager"
+    },
+    {
+        "name": "Helmsman",
+        "ring": "Hold",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "..."
+    },
+    {
+        "name": "Git",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": " "
+    },
+    {
+        "name": "GitLab",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": " "
+    },
+    {
+        "name": "Flagger",
+        "ring": "Hold",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description":"Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)"
+    },
+    {
+        "name": "Harbor",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description":"An open source trusted cloud native registry project that stores, signs, and scans content."
+    },
+    {
+        "name": "Chartmuseum",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "Part of Harbor"
+    },
+    {
+        "name": "Polaris",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "Validation of best practices in your Kubernetes clusters"
+    },
+    {
+        "name": "Black Duck",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "Black Duck provides a comprehensive software composition analysis (SCA) solution for managing security, quality, and license compliance risk that comes from the use of open source and third-party code in applications and containers."
+    },
+    {
+        "name": "Vault",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "A tool for secrets management, encryption as a service, and privileged access management"
+    },
+    {
+        "name": "Jaeger",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "CNCF Jaeger, a Distributed Tracing Platform"
+    },
+    {
+        "name": "Prometheus",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "The Prometheus monitoring system and time series database."
+    },
+    {
+        "name":"AWS' CloudWatch",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE", 
+        "description": " "
+    },
+    {
+        "name": "Kiali",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "Kiali project, observability for the Istio service mesh"
+    },
+    {
+        "name": "Grafana",
+        "ring": "Trial",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture."
+    },
+    {
+        "name": "FluentD",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "Fluentd is an open source data collector for unified logging layer"
+    },
+    {
+        "name": "Splunk",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "Splunk is a software company that provides operational intelligence software that monitors, reports, and analyzes real-time machine data."
+    },
+    {
+        "name": "Splunk ITSI",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE",
+        "description": "Splunk is a software company that provides operational intelligence software that monitors, reports, and analyzes real-time machine data."
+    },
+    {
+        "name": "Snyk",
+        "ring": "Trial",
+        "quadrant": "Tools",
+        "inNew": "TRUE",
+        "description": "Find and automatically fix vulnerabilities in your code, open source dependencies, containers, and infrastructure as code"
+    },
+    {
+        "name": "Elastic as backend for Jaeger",
+        "ring": "Adopt",
+        "quadrant": "Tools",
+        "inNew": "TRUE",
+        "description": "Free and Open, Distributed, RESTful Search Engine"
+    },
+    {
+        "name": "Lucene as backend for FHIR services",
+        "ring": "Hold",
+        "quadrant": "Tools",
+        "inNew": "FALSE", 
+        "description": " "
+    },
+    {
+        "name": "Elastic as backend as for FHIR services",
+        "ring": "Assess",
+        "quadrant": "Tools",
+        "inNew": "TRUE", 
+        "description": " "
+    },
+    {
+        "name": "Alternative to splunk for log consolidation",
+        "ring": "Assess",
+        "quadrant": "Tools",
+        "inNew": "TRUE",
+        "description": "Currently SPLUNK is used for log coonsolidation. SPLUNK is expensive in licences and we may want to look at alternatives."
+    },
+    {
+        "name": "TerraForm",
+        "ring": " Adopt",
+        "quadrant": "Tools",
+        "inNew": "FALSE", 
+        "description": "De facto choice for creating and managing cloud infrastructures by writing declarative definitions"
+    },
+    {
+        "name": "OpenAPI Initiative",
+        "ring": "Adopt",
+        "quadrant": "languages-and-frameworks",
+        "inNew": "FALSE", 
+        "description": "The OpenAPI Specification Repository"
+    },
+    {
+        "name": "Kotlin",
+        "ring": "Assess",
+        "quadrant": "languages-and-frameworks",
+        "inNew": "TRUE", 
+        "description": "A programming language for the Java VM that makes developers happier."
+    },
+    {
+        "name": "AsyncAPI",
+        "ring": "Trial",
+        "quadrant": "languages-and-frameworks",
+        "inNew": "TRUE", 
+        "description": "Open-Source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs."
+    },
+    {
+        "name": "Jenkins as deployment pipeline",
+        "ring": "Hold",
+        "quadrant": "Techniques",
+        "inNew": "FALSE", 
+        "description": "Jenkins is currently used as deployment tool. Look into using Kubernetes operators instead (e.g ArcoCD, Flux2...)"
+    },
+    {
+        "name": "Flux2 as deployment pipeline",
+        "ring": "Trial",
+        "quadrant": "Techniques",
+        "inNew": "TRUE", 
+        "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit."
+    },
+    {
+        "name": "Cluster per environment for test environments",
+        "ring": "Adopt",
+        "quadrant": "Techniques",
+        "inNew": "TRUE", 
+        "description": "Seperate cluster for each non-prod environment - https://learnk8s.io/how-many-clusters"
+    },
+    {
+        "name": "One large Cluster for test environments",
+        "ring": "Assess",
+        "quadrant": "Techniques",
+        "inNew": "TRUE", 
+        "description": "All workloads in same cluster for non-prod environment - https://learnk8s.io/how-many-clusters"
+    },
+    {
+        "name": "Argo CD as deployment tool",
+        "ring": "Assess",
+        "quadrant": "Techniques",
+        "inNew": "TRUE", 
+        "description": "Provides Web UI for real-time view of application activity"
+    }
+]
