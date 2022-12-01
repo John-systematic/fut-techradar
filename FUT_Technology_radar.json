@@ -63,7 +63,7 @@
         "description": "The Next Generation Message Broker by ActiveMQ. Look into use Artemis to support High Availability and Failover configurations."
     },
     {
-        "name": "Amazon MQ on AWS clusters",
+        "name": "Managed Amazon MQ on AWS environments",
         "ring": "Hold",
         "quadrant": "Platforms",
         "isNew": "FALSE",
