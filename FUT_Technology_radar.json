@@ -80,14 +80,14 @@
     {
         "name": "AWS RDS/Aurora",
         "ring": "Adopt",
-        "quadrant": "Tools",
+        "quadrant": "Platforms",
         "isNew": "FALSE",
         "description":"PostgreSQL as managed service on AWS"
     },
     {
         "name": "Postgres cluster",
         "ring": "Adopt",
-        "quadrant": "Tools",
+        "quadrant": "Platforms",
         "isNew": "FALSE",
         "description":"PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
     },
@@ -101,9 +101,9 @@
     {
         "name": "Helmsman",
         "ring": "Hold",
-        "quadrant": "Tools",
+        "quadrant": "Techniques",
         "isNew": "FALSE",
-        "description": "..."
+        "description": "Helmsman is a Helm Charts (k8s applications) as Code tool which allows you to automate the deployment/management of your Helm charts from version controlled code. When going to Flux2, the use of Helmsman should be re-considered."
     },
     {
         "name": "Git",
@@ -212,7 +212,7 @@
     },
     {
         "name": "Snyk",
-        "ring": "Trial",
+        "ring": "Adopt",
         "quadrant": "Tools",
         "isNew": "TRUE",
         "description": "Find and automatically fix vulnerabilities in your code, open source dependencies, containers, and infrastructure as code"
@@ -261,10 +261,17 @@
     },
     {
         "name": "Kotlin",
-        "ring": "Assess",
+        "ring": "Trial",
         "quadrant": "languages-and-frameworks",
         "isNew": "TRUE", 
         "description": "A programming language for the Java VM that makes developers happier."
+    },
+    {
+        "name": "Spring Boot Native",
+        "ring": "Trial",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "TRUE", 
+        "description": "Native images provide various advantages like instant startup and reduced memory consumption. Spring Native is used to compile and build native images using Buildpacks and GraalVM's native build tools."
     },
     {
         "name": "AsyncAPI",
@@ -291,12 +298,19 @@
         "name": "Cluster per environment for test environments",
         "ring": "Adopt",
         "quadrant": "Techniques",
-        "isNew": "TRUE", 
+        "isNew": "FALSE", 
         "description": "Seperate cluster for each non-prod environment - https://learnk8s.io/how-many-clusters"
     },
     {
+        "name": "Cluster per Anvendersystem",
+        "ring": "Adopt",
+        "quadrant": "Techniques",
+        "isNew": "TRUE", 
+        "description": "Going from seperate namespace to seperate cluster for each telemedicine solution"
+    },
+        {
         "name": "One large Cluster for test environments",
-        "ring": "Assess",
+        "ring": "Hold",
         "quadrant": "Techniques",
         "isNew": "TRUE", 
         "description": "All workloads in same cluster for non-prod environment - https://learnk8s.io/how-many-clusters"
