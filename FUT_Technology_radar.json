@@ -1,10 +1,17 @@
 [
     {
-        "name": "ActiveMQ",
+        "name": "ActiveMQ on VM for on-prem",
         "ring": "Adopt",
         "quadrant": "Platforms",
         "isNew": "FALSE",
         "description": "Messaging system used On-Prem"
+    },
+    {
+        "name": "ActiveMQ on VM for AWS",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "isNew": "TRUE",
+        "description": "Messaging system used in AWS environment should be similar to On-Prem"
     },
     {
         "name": "Kubernetes",
@@ -303,7 +310,7 @@
     },
     {
         "name": "Cluster per Anvendersystem",
-        "ring": "Adopt",
+        "ring": "Assess",
         "quadrant": "Techniques",
         "isNew": "TRUE", 
         "description": "Going from seperate namespace to seperate cluster for each telemedicine solution"
