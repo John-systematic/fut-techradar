@@ -1,24 +1,10 @@
 [
     {
-        "name": "Amazon MQ",
-        "ring": "Hold",
-        "quadrant": "Platforms",
-        "isNew": "FALSE",
-        "description": "Messaging system used as managed service on AWS test systems. Replace Amazon MQ with  Active MQ on virtual machines outside the k8s cluster to be able to debug and keep enviroment similar."
-    },
-    {
         "name": "ActiveMQ",
         "ring": "Adopt",
         "quadrant": "Platforms",
         "isNew": "FALSE",
         "description": "Messaging system used On-Prem"
-    },
-    {
-        "name": "ActiveMQ Artemis",
-        "ring": "Assess",
-        "quadrant": "Platforms",
-        "isNew": "TRUE",
-        "description": "The Next Generation Message Broker by ActiveMQ"
     },
     {
         "name": "Kubernetes",
@@ -62,6 +48,28 @@
         "isNew": "FALSE",
         "description": "Open Source Identity and Access Management For Modern Applications and Services"
     },
+    {
+        "name": "Grafana",
+        "ring": "Trial",
+        "quadrant": "Tools",
+        "isNew": "FALSE",
+        "description": "Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture."
+    },
+    {
+        "name": "ActiveMQ Artemis",
+        "ring": "Assess",
+        "quadrant": "Platforms",
+        "isNew": "TRUE",
+        "description": "The Next Generation Message Broker by ActiveMQ"
+    },
+    {
+        "name": "Amazon MQ on AWS clusters",
+        "ring": "Hold",
+        "quadrant": "Platforms",
+        "isNew": "FALSE",
+        "description": "Messaging system used as managed service on AWS test systems. Replace Amazon MQ with  Active MQ on virtual machines outside the k8s cluster to be able to debug and keep enviroment similar."
+    },
+
     {
         "name": "Cilium",
         "ring": "Assess",
@@ -180,13 +188,6 @@
         "quadrant": "Tools",
         "isNew": "FALSE",
         "description": "Kiali project, observability for the Istio service mesh"
-    },
-    {
-        "name": "Grafana",
-        "ring": "Trial",
-        "quadrant": "Tools",
-        "isNew": "FALSE",
-        "description": "Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture."
     },
     {
         "name": "FluentD",
