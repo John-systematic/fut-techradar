@@ -4,14 +4,7 @@
         "ring": "Adopt",
         "quadrant": "Platforms",
         "isNew": "FALSE",
-        "description": "Messaging system used On-Prem"
-    },
-    {
-        "name": "ActiveMQ on VM for AWS",
-        "ring": "Adopt",
-        "quadrant": "Platforms",
-        "isNew": "TRUE",
-        "description": "Messaging system used in AWS environment should be similar to On-Prem"
+        "description": "Messaging system used On-Prem are ActiveMQ on VM."
     },
     {
         "name": "Kubernetes",
@@ -25,7 +18,7 @@
         "ring": "Adopt",
         "quadrant": "Platforms",
         "isNew": "FALSE",
-        "description": " Kubernetes distro used on-prem."
+        "description": "Kubernetes distro used on-prem."
     },
     {
         "name": "AWS EKS",
@@ -39,7 +32,7 @@
         "ring": "Adopt",
         "quadrant": "Platforms",
         "isNew": "FALSE",
-        "description": "Connect, secure, control, and observe services."
+        "description": "Service Mesh. Connect, secure, control, and observe services."
     },
     {
         "name": "Docker",
@@ -67,7 +60,7 @@
         "ring": "Assess",
         "quadrant": "Platforms",
         "isNew": "TRUE",
-        "description": "The Next Generation Message Broker by ActiveMQ"
+        "description": "The Next Generation Message Broker by ActiveMQ. Look into use Artemis to support High Availability and Failover configurations."
     },
     {
         "name": "Amazon MQ on AWS clusters",
@@ -76,8 +69,14 @@
         "isNew": "FALSE",
         "description": "Messaging system used as managed service on AWS test systems. Replace Amazon MQ with  Active MQ on virtual machines outside the k8s cluster to be able to debug and keep enviroment similar."
     },
-
     {
+        "name": "ActiveMQ on VM for AWS enviroments",
+        "ring": "Trial",
+        "quadrant": "Platforms",
+        "isNew": "TRUE",
+        "description": "Messaging system used in AWS environment. Should be similar to On-Prem (ActiveMQ on Virtual machines), and not a AWS managed service."
+    },
+     {
         "name": "Cilium",
         "ring": "Assess",
         "quadrant": "Tools",
@@ -117,21 +116,21 @@
         "ring": "Adopt",
         "quadrant": "Tools",
         "isNew": "FALSE",
-        "description": " "
+        "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
     },
     {
         "name": "GitLab",
         "ring": "Adopt",
         "quadrant": "Tools",
         "isNew": "FALSE",
-        "description": " "
+        "description": "GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers."
     },
     {
         "name": "Flagger",
         "ring": "Hold",
         "quadrant": "Tools",
         "isNew": "FALSE",
-        "description":"Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)"
+        "description":"Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments). Not really used."
     },
     {
         "name": "Harbor",
@@ -164,7 +163,7 @@
     {
         "name": "Vault",
         "ring": "Adopt",
-        "quadrant": "Tools",
+        "quadrant": "Platforms",
         "isNew": "FALSE",
         "description": "A tool for secrets management, encryption as a service, and privileged access management"
     },
@@ -264,7 +263,14 @@
         "ring": "Adopt",
         "quadrant": "languages-and-frameworks",
         "isNew": "FALSE", 
-        "description": "The OpenAPI Specification Repository"
+        "description": "The OpenAPI Specification is used for e.g. SSL services. The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic."
+    },
+    {
+        "name": "Java",
+        "ring": "Adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE", 
+        "description": "The Java programming language"
     },
     {
         "name": "Kotlin",
