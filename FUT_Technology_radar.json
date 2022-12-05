@@ -56,6 +56,34 @@
         "description": "Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture."
     },
     {
+        "name": "HazelCast",
+        "ring": "Assess",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "In a Hazelcast grid, data is evenly distributed among the nodes of a computer cluster, allowing for horizontal scaling of processing and available storage. Backups are also distributed among nodes to protect against failure of any single node. Hazelcast provides central, predictable scaling of applications through in-memory access to frequently used data and across an elastically scalable data grid. These techniques reduce the query load on databases and improve speed."
+    },
+    {
+        "name": "Memcached",
+        "ring": "Assess",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load. Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering."
+    },
+    {
+        "name": "Redis",
+        "ring": "Assess",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "The open source, in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker."
+    },
+    {
+        "name": "Infinispan",
+        "ring": "Assess",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "Infinispan is an open-source in-memory data grid that offers flexible deployment options and robust capabilities for storing, managing, and processing data. Infinispan provides a key/value data store that can hold all types of data, from Java objects to plain text. Infinispan distributes your data across elastically scalable clusters to guarantee high availability and fault tolerance, whether you use Infinispan as a volatile cache or a persistent data store."
+    },
+    {
         "name": "ActiveMQ Artemis",
         "ring": "Assess",
         "quadrant": "Platforms",
@@ -110,6 +138,13 @@
         "quadrant": "Techniques",
         "isNew": "FALSE",
         "description": "Helmsman is a Helm Charts (k8s applications) as Code tool which allows you to automate the deployment/management of your Helm charts from version controlled code. When going to Flux2, the use of Helmsman should be re-considered."
+    },
+    {
+        "name": "CQRS / View database / Service",
+        "ring": "Assess",
+        "quadrant": "Techniques",
+        "isNew": "FALSE",
+        "description": "Define a view database and service, which is a read-only replica that is designed to support that query. The application keeps the replica up to data by subscribing to Domain events published by the service that own the data."
     },
     {
         "name": "Git",
@@ -266,6 +301,20 @@
         "description": "The OpenAPI Specification is used for e.g. SSL services. The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic."
     },
     {
+        "name": "HAPI FHIR",
+        "ring": "Adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE", 
+        "description": "HAPI FHIR is a complete implementation of the HL7 FHIR standard for healthcare interoperability in Java. We are an open community developing software licensed under the business-friendly Apache Software License 2.0. HAPI FHIR is a product of Smile CDR"
+    },
+    {
+        "name": "Clinical Quality Language (CQL)",
+        "ring": "Assess",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "TRUE", 
+        "description": "CQL has matured into a capable and flexible specification for representing clinically-focused logic, and is being used in a broad variety of applications from cohort definition and quality measurement, to clinical decision and cognitive support, computable guidelines, and public health reporting."
+    },
+    {
         "name": "Java",
         "ring": "Adopt",
         "quadrant": "languages-and-frameworks",
@@ -273,8 +322,22 @@
         "description": "The Java programming language"
     },
     {
+        "name": "Angular",
+        "ring": "Adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE", 
+        "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your applications."
+    },
+    {
+        "name": "vue.js",
+        "ring": "Adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE", 
+        "description": "Vue is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex."
+    },
+    {
         "name": "Kotlin",
-        "ring": "Trial",
+        "ring": "Assess",
         "quadrant": "languages-and-frameworks",
         "isNew": "TRUE", 
         "description": "A programming language for the Java VM that makes developers happier."
