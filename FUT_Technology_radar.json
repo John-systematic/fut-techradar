@@ -49,6 +49,13 @@
         "description": "Open Source Identity and Access Management For Modern Applications and Services"
     },
     {
+        "name": "KEDA",
+        "ring": "Trial",
+        "quadrant": "Platforms",
+        "isNew": "FALSE",
+        "description": "KEDA is a Kubernetes-based Event Driven Autoscaler. With KEDA, you can drive the scaling of any container in Kubernetes based on the number of events needing to be processed."
+    },
+    {
         "name": "Grafana",
         "ring": "Trial",
         "quadrant": "Tools",
