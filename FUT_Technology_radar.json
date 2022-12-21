@@ -63,6 +63,13 @@
         "description": "Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture."
     },
     {
+        "name": "Kubecost",
+        "ring": "Trial",
+        "quadrant": "Tools",
+        "isNew": "TRUE",
+        "description": "Kubecost provides an approach built on open source for ensuring consistent and accurate visibility across all your workloads."
+    },
+    {
         "name": "HazelCast",
         "ring": "Assess",
         "quadrant": "languages-and-frameworks",
